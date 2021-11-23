@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: agpl-3.0
 pragma solidity ^0.6.8;
 
-import { SafeMath } from '@openzeppelin/contracts/math/SafeMath.sol';
-import { IERC20 } from '@openzeppelin/contracts/token/ERC20/IERC20.sol';
-import { SafeERC20 } from '@openzeppelin/contracts/token/ERC20/SafeERC20.sol';
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/docs-v3.x/contracts/math/SafeMath.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/docs-v3.x/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/docs-v3.x/contracts/token/ERC20/SafeERC20.sol";
 import { IFlashLoanReceiverV2 } from './../../../interfaces/v2/IFlashLoanReceiverV2.sol';
 import { ILendingPoolAddressesProviderV2 } from './../../../interfaces/v2/ILendingPoolAddressesProviderV2.sol';
 import { ILendingPoolV2 } from './../../../interfaces/v2/ILendingPoolV2.sol';
